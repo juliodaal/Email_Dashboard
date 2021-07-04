@@ -10,7 +10,7 @@ class Cards extends React.Component {
 
     render(){
         return(
-            <div className={"p-6 col-span-3 bg-gray-50 overflow-y-scroll scroll-custom"}>
+            <div className={"p-6 col-span-3 bg-gray-50 overflow-y-scroll"}>
                 <Search />
                 <div>
                     <ul className={"w-full mt-2 rounded-md"}>

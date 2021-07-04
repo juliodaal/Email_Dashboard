@@ -1,15 +1,28 @@
 /* width */
-.scroll-custom::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
-.scroll-custom::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: transparent;
 }
 
 /* Handle */
-.scroll-custom::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: rgb(229, 231, 235);
   border-radius: 4px;
+}
+.h-email-content{
+  height: calc(100% - 60px);
+}
+.btn-download-content,
+.btn-download-bg{
+  opacity: 0;
+}
+button:hover .btn-download-content{
+  opacity: 1;
+}
+button:hover .btn-download-bg{
+  opacity: .5;
 }

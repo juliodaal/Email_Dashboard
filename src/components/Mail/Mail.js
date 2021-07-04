@@ -1,5 +1,8 @@
 import React from "react";
 
+import ActionBar from "../ActionBar/ActionBar"
+import EmailBody from "../EmailBody/EmailBody"
+
 class Mail extends React.Component {
     constructor(props){
         super(props);
@@ -7,7 +10,10 @@ class Mail extends React.Component {
 
     render(){
         return(
-            <div className={"bg-green-400 col-span-5"}>3</div>
+            <div className={"h-screen col-span-5"}>
+                <ActionBar />
+                <EmailBody />
+            </div>
         )
     }
 }

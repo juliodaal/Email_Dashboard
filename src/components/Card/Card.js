@@ -19,17 +19,17 @@ class Card extends React.Component {
                             <p className={"text-gray-600 text-sm text-justify"}>Julie Smith</p>
                             <ul className={"flex justify-center items-center"}>
                                 <li>
-                                    <button className={"text-gray-400"}>
+                                    <button className={"text-gray-400 hover:text-yellow-400"}>
                                         <i class="bi bi-star text-sm mr-2"></i>
                                     </button>
                                 </li>
                                 <li>
-                                    <button className={"text-gray-400"}>
+                                    <button className={"text-gray-400 hover:text-purple-400"}>
                                         <i class="bi bi-archive text-sm mr-2"></i>
                                     </button>
                                 </li>
                                 <li>
-                                    <p className={"text-xs"}>May 20</p>
+                                    <p className={"text-xs font-semibold"}>May 20</p>
                                 </li>
                             </ul>
                         </div>
